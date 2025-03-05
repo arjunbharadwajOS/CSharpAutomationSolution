@@ -1,12 +1,8 @@
 
 # CSharpAutomationSolution
-
-A brief description of what this project does and who it's for
-
-
 ## Overview
 
-This project is a test automation framework using Selenium for UI testing and RestSharp for API testing in C#. It allows automated browser testing and API validation within a single solution.
+This project is a test automation framework using Selenium for Web UI testing, Appium for Mobile App testing and RestSharp for API testing in C#. It allows automated browser testing and API validation within a single solution.
 
 ## Prerequisites
 
@@ -23,6 +19,8 @@ Selenium WebDriver
 Selenium WebDriver Support
 
 RestSharp
+
+Appium.WebDriver
 
 NUnit (or xUnit/MSTest)
 
@@ -58,27 +56,27 @@ Running UI Tests
 
 Execute Selenium tests via NUnit:
 
--- dotnet test --filter UIAPIAutomationTests.Tests
+--dotnet test --filter UIAPIAutomationTests.Tests
 
 Running API Tests
 
 Execute API tests via NUnit:
 
--- dotnet test --filter UIAPIAutomationTests.Tests
+dotnet test --filter UIAPIAutomationTests.Tests
 
 Running Specflow BDD Tests
 
 Execute API tests via NUnit:
 
--- dotnet test --filter Category="tag1"
+dotnet test --filter Category="tag1"
 
 Running Playwright Tests
 
--- dotnet test --filter SamplePlaywright.FirstPlaywrightMethod
+dotnet test --filter SamplePlaywright.FirstPlaywrightMethod
 
 Execute Mobile App tests via NUnit:
 
--- dotnet test --filter AppiumExample.AppiumTest
+dotnet test --filter AppiumExample.AppiumTest
 
 ## Reporting
 
@@ -101,3 +99,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For any issues or enhancements, please create an issue on GitHub or reach out to ansimytech@gmail.com.
+
+Extent Report Screenshots
+![image](https://github.com/user-attachments/assets/17208160-39d4-4ce5-b6da-81cc4c672d87)
+![image](https://github.com/user-attachments/assets/25ab514b-43fd-43e1-a610-4fc728778d22)
+![image](https://github.com/user-attachments/assets/febe883c-b3ce-4448-9672-f920901fff03)
+
+
+

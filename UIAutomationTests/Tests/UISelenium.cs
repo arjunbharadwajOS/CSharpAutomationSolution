@@ -25,6 +25,7 @@ namespace UIAPIAutomationTests.Tests
         {
             try
             {
+
                 s1.hpage.enterUserMessage(Input.TestData.searchText, "Search Text Entered");
                 s1.hpage.clickMethod("Button is Clicked");
 
@@ -32,7 +33,7 @@ namespace UIAPIAutomationTests.Tests
                              "The expected message was not displayed.");
                 string dtime = DateTime.Now.ToString("MdyyyyHHmmss",
                                     CultureInfo.InvariantCulture);
-                s1.reports.includeAttachmentReport(s1.driver, s1.getProjectPath()+ "\\Screenshots\\" + "SSName" + "_" + dtime + ".png", "Search Text Results Displayed");
+                s1.reports.includeAttachmentReport(s1.driver, s1.getProjectPath()+ "\\Screenshots\\" + "Web" + "_" + dtime + ".png", "Search Text Results Displayed");
 
                 s1.reports.LoggingTestStatusExtentReport(TestStatus.Pass.ToString(), "VerifyUserMessage Test Passed");
             }
@@ -41,7 +42,7 @@ namespace UIAPIAutomationTests.Tests
                 Console.WriteLine(e.Message);
                 string dtime = DateTime.Now.ToString("MdyyyyHHmmss",
                                     CultureInfo.InvariantCulture);
-                s1.reports.includeAttachmentReport(s1.driver, s1.getProjectPath() + "\\Screenshots\\" + "SSName" + "_" + dtime + ".png", "Search Text Results Not Displayed");
+                s1.reports.includeAttachmentReport(s1.driver, s1.getProjectPath() + "\\Screenshots\\" + "Web" + "_" + dtime + ".png", "Search Text Results Not Displayed");
                 s1.reports.LoggingTestStatusExtentReport(TestStatus.Fail.ToString(), e.Message);
             }
 

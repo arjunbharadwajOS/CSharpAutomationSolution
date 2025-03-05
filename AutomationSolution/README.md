@@ -3,43 +3,54 @@
 
 A brief description of what this project does and who it's for
 
+
 ## Overview
 
 This project is a test automation framework using Selenium for UI testing and RestSharp for API testing in C#. It allows automated browser testing and API validation within a single solution.
 
-
 ## Prerequisites
 
--- NET SDK (Version 6.0 or later)
+NET SDK (Version 6.0 or later)
 
--- Visual Studio (Recommended IDE)
+Visual Studio (Recommended IDE)
 
--- Chrome/Firefox/Edge WebDriver (Matching your browser version)
+Chrome/Firefox/Edge WebDriver (Matching your browser version)
 
 NuGet Packages:
 
--- Selenium WebDriver
+Selenium WebDriver
 
--- Selenium WebDriver Support
+Selenium WebDriver Support
 
--- RestSharp
+RestSharp
 
--- NUnit (or xUnit/MSTest)
+NUnit (or xUnit/MSTest)
 
 ## Installation
 
 Clone the repository:
 
--- git clone https://github.com/arjunbharadwajOS/CSharpAutomationSolution.git
-   cd CSharpAutomationSolution
+git clone https://github.com/arjunbharadwajOS/CSharpAutomationSolution.git
+cd CSharpAutomationSolution
 
 Open the project in Visual Studio.
 
 Restore dependencies:
 
--- dotnet restore
+dotnet restore
 
 Configure WebDriver paths (if necessary).
+
+Appium plan for this quickstart is as follows:
+
+-- Install Appium
+-- Install an Appium driver and its dependencies
+-- This guide provides instructions for the UiAutomator2 driver
+-- Install an Appium client library in your language of choice
+-- This guide contains options for JavaScript, Python, Java, Ruby, and .NET
+-- Write and run a simple Appium automation script using a sample application
+
+Reference Link: https://appium.io/docs/en/latest/quickstart/
 
 ## Running Tests
 
@@ -65,9 +76,14 @@ Running Playwright Tests
 
 -- dotnet test --filter SamplePlaywright.FirstPlaywrightMethod
 
+Execute Mobile App tests via NUnit:
+
+-- dotnet test --filter AppiumExample.AppiumTest
+
 ## Reporting
 
 This project can generate and view test execution reports - ExtentReports for better visibility.
+
 ## Contributing
 
 Fork the repository.
@@ -80,7 +96,7 @@ Open a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 

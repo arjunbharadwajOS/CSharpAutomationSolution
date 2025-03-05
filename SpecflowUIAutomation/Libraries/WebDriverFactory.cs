@@ -1,13 +1,4 @@
-﻿using OpenQA.Selenium;
-using SpecflowUIAutomation.HooksClass;
-using SpecflowUIAutomation.Libraries;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SpecflowUIAutomation.Libraries
+﻿namespace SpecflowUIAutomation.Libraries
 {
     public class WebDriverFactory
     {

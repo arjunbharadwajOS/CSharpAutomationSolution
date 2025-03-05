@@ -24,4 +24,23 @@ global using System.Linq;
 global using System.Reflection;
 global using System.Text;
 global using System.Threading.Tasks;
+global using System;
+global using System.Collections.Generic;
+global using System.Globalization;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
+global using OpenQA.Selenium.Chrome;
+global using OpenQA.Selenium.Firefox;
+global using OpenQA.Selenium.Edge;
+global using UIAPIAutomationTests.Pages;
+global using System.Globalization;
+global using System.Xml.Linq;
 global using static System.Net.Mime.MediaTypeNames;
+global using AventStack.ExtentReports.Model;
+global using UIAPIAutomationTests.Libraries;
+global using static System.Net.Mime.MediaTypeNames;
+using static UIAPIAutomationTests.Libraries.WebDriverFactory;
+
+

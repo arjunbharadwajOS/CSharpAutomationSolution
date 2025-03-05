@@ -1,12 +1,4 @@
-﻿using Reqnroll;
-using SpecflowUIAutomation.HooksClass;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SpecflowUIAutomation.StepDefinition
+﻿namespace SpecflowUIAutomation.StepDefinition
 {
         [Binding]
         public class WebsiteDefinition

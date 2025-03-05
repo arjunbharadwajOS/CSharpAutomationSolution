@@ -1,5 +1,4 @@
 ﻿
-
 namespace UIAPIAutomationTests.Pages
 {
     public class HomePage

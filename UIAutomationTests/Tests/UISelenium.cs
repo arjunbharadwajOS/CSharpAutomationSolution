@@ -1,10 +1,4 @@
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
-using OpenQA.Selenium.Chrome;
-using UIAPIAutomationTests.Pages;
-using System.Globalization;
-using System.Xml.Linq;
-using static System.Net.Mime.MediaTypeNames;
-using AventStack.ExtentReports.Model;
+
 
 namespace UIAPIAutomationTests.Tests
 {

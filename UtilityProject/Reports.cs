@@ -1,9 +1,4 @@
 ﻿
-
-using OpenQA.Selenium;
-using System.Globalization;
-using System.Xml.Linq;
-
 namespace UtilityProject
 {
     public class Reports

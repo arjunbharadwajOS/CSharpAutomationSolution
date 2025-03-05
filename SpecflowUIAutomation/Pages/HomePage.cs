@@ -1,7 +1,4 @@
-﻿using NUnit.Framework.Interfaces;
-using OpenQA.Selenium;
-
-namespace SpecflowUIAutomation.Pages
+﻿namespace SpecflowUIAutomation.Pages
 {
     public class HomePage
     {

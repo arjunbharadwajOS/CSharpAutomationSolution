@@ -1,9 +1,4 @@
-﻿
-
-using static UIAPIAutomationTests.Libraries.WebDriverFactory;
-using UIAPIAutomationTests.Libraries;
-
-namespace UIAPIAutomationTests
+﻿namespace UIAPIAutomationTests
 {
     public enum BrowserType
     {

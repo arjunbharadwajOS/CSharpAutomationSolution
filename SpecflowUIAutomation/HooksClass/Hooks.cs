@@ -1,21 +1,4 @@
-﻿
-
-using AventStack.ExtentReports;
-using AventStack.ExtentReports.Gherkin.Model;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using Reqnroll;
-using Reqnroll.BoDi;
-using SpecflowUIAutomation.Pages;
-using System.Globalization;
-using System.Reflection;
-using UtilityProject;
-using static SpecflowUIAutomation.Libraries.WebDriverFactory;
-using SpecflowUIAutomation.Libraries;
-using Feature = AventStack.ExtentReports.Gherkin.Model.Feature;
-using Scenario = AventStack.ExtentReports.Gherkin.Model.Scenario;
-
-namespace SpecflowUIAutomation.HooksClass
+﻿namespace SpecflowUIAutomation.HooksClass
 {
 
     public enum BrowserType

@@ -42,10 +42,15 @@ Configure WebDriver paths (if necessary).
 Appium plan for this quickstart is as follows:
 
 -- Install Appium
+
 -- Install an Appium driver and its dependencies
+
 -- This guide provides instructions for the UiAutomator2 driver
+
 -- Install an Appium client library in your language of choice
+
 -- This guide contains options for JavaScript, Python, Java, Ruby, and .NET
+
 -- Write and run a simple Appium automation script using a sample application
 
 Reference Link: https://appium.io/docs/en/latest/quickstart/

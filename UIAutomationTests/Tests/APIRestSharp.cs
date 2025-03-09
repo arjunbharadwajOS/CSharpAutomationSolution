@@ -4,7 +4,7 @@ namespace UIAPIAutomationTests.Tests
     [TestClass]
     public class APIRestSharp
     {
-        Initialise initialise = Initialise.Instance;
+        Initialise initialise = Initialise.GetInstance();
 
         [TestInitialize]
         public void setup()

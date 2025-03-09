@@ -14,30 +14,24 @@
         Skip
     }
 
-    public class Initialise
+    public sealed class Initialise
     {
-        private static Initialise _instance;
         public IWebDriver driver = null;
         public HomePage hpage = null;
         public Reports reports = null;
         public APIMethods apiMethods = null;
 
+        private static readonly Lazy<Initialise> instance = new Lazy<Initialise>(() => new Initialise());
+
         private Initialise()
         {
-            
         }
 
-        public static Initialise Instance
+        public static Initialise GetInstance()
         {
-            get
-            {
-                if (_instance == null)
-                    _instance = new Initialise();
-
-                return _instance;
-            }
+            return instance.Value;
         }
-
+               
         public string getProjectPath()
         {
             string path = Assembly.GetCallingAssembly().CodeBase;

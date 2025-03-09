@@ -5,7 +5,7 @@ namespace UIAPIAutomationTests.Tests
     [TestClass]
     public class UISelenium 
     {
-        Initialise s1 = Initialise.Instance;
+        Initialise s1 = Initialise.GetInstance();
 
         [TestInitialize]
         public void testSetup()
